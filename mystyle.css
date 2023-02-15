@@ -1,21 +1,89 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
+   to reset the browsers
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +91,116 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	font-family: Verdana, sans-serif;
+	line-height: 1.6;
+	;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-h1{
-    font-size:3em;
+
+h1 {
+	font-size: 3em;
+	margin-left: 2.3em;
+	font-weight: bold;
+	color: #609EA2
 }
-#bannerImage{
-    width:100%;
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #609EA2
 }
-#Charles{
-    width:200px;
-    height:250px;
-    float:right;
+
+#bannerImage {
+	width: 100%;
 }
-h4,h3,p{
-    padding:10px;
+
+.subImage {
+	width: 200px;
+	height: 250px;
+	float: right;
+	padding-bottom: 50px;
 }
-main{
-    padding-left:40px;
+
+
+h3,
+h4,
+ul {
+	padding-left: 50px;
+
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #609EA2
+}
+
+p {
+	margin-right: 300px;
+	padding-left: 50px;
+}
+
+a {
+	color: #609EA2;
+}
+
+main {
+	padding-left: 40px;
+}
+footer {
+    background-color: #609EA2;
+    color: #F0EEED;
+    padding: 10px;
+	margin-top:20px
+}
+footer > p{
+	padding-left: 5rem;
 }
