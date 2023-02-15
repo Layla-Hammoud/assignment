@@ -1,6 +1,6 @@
 # assignment
 ## computer Sience project
-a web site provide information about computer science
+a web site provide informations about computer science
 ### languages which I use in the project
 
 * HTML
