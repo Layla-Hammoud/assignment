@@ -6,9 +6,12 @@ a web site provide informations about computer science
 * HTML
 * CSS
 
-- author : Layla Hammoud
-- date : 15-2-2022
+ author : Layla Hammoud
+ 
+date : 15-2-2022
 
 #### Additional link for learning CSS
-MDN Website ""here!": [here!](https://developer.mozilla.org/en-US/docs/Web/CSS).
-W3school ""here!": [here!](https://www.w3schools.com/css/default.asp).
+MDN Website [here!](https://developer.mozilla.org/en-US/docs/Web/CSS).
+
+
+W3school Website [here!](https://www.w3schools.com/css/default.asp).
